@@ -1,14 +1,14 @@
 organization  := "de.frosner"
 
-version       := "4.2.0-SNAPSHOT"
+version       := "5.0.0-SNAPSHOT"
 
 name          := "drunken-data-quality"
 
-scalaVersion  := "2.11.11"
+scalaVersion  := "2.12.10"
 
-sparkVersion := "2.2.1"
+sparkVersion := "3.0.1"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.3" % "test"
 
 libraryDependencies += "org.apache.spark" %% "spark-core" % sparkVersion.value % "provided"
 
